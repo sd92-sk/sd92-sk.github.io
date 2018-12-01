@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Welcome to sd92-sk github page!
 
-You can use the [editor on GitHub](https://github.com/sd92-sk/sd92-sk.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What I will find here?
+I'd like to share scripts or other stuff that is useful to me and hopefully someone else.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For example when i create Debian linux VM, it's PITA to go over full install always and configure additional packages manually. Instead I make first install, then add packages, change settings in config files and then create template in hypervisor.
 
-### Markdown
+Even that is not good for me, because I want it to be consistent when new Debian release is out and wish to have clean install of that with my modifications. So I have script for that.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+More examples are install scripts for LAMP, xmpp server or similiar.
 
-```markdown
-Syntax highlighted code block
+I also want to automate gathering information from my XenServer/[xcp-ng](https://xcp-ng.org/) hypervisor which VMs are on which networks, and on my LAN network what are their MAC addresses, as I have MAC addresses statically mapped to IP addresses to be assigned by DHCP.
 
-# Header 1
-## Header 2
-### Header 3
+Reason for that is, I'm never sure which ones are free to use. I designated only ~30 IP's, but have about 20 VMs, with not sequentially assigned addresses - the lower the IP, the higher importance to me, higher ones are for testing stuff and to be deleted soon :D I think I'll create website which will display that info for me, and not do it via excel/calc.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sd92-sk/sd92-sk.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### EOF
